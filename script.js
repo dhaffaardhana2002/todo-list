@@ -19,34 +19,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Functions
 	function add(input) {
+		let li = document.createElement('li')
+		let p = document.createElement('p')
+		let img = document.createElement('img')
+		lists.appendChild(li)
+		li.appendChild(p)
+		li.appendChild(img)
+		img.src = 'img/trash-can.png'
+		img.alt = 'Trash can logo'
 		if (!input) {
 			if (text.value) {
-				let li = document.createElement('li')
-				let p = document.createElement('p')
-				let text_in = document.createTextNode(text.value)
-				let img = document.createElement('img')
-				lists.appendChild(li)
-				li.appendChild(p)
-				li.appendChild(img)
+				var text_in = document.createTextNode(text.value)
 				p.appendChild(text_in)
-				img.src = 'img/trash-can.png'
-				img.alt = 'Trash can logo'
 				text.value = ''
-				makeDelete()
 			}
 		} else {
-			let li = document.createElement('li')
-			let p = document.createElement('p')
-			let text_in = document.createTextNode(input)
-			let img = document.createElement('img')
-			lists.appendChild(li)
-			li.appendChild(p)
-			li.appendChild(img)
+			var text_in = document.createTextNode(input)
 			p.appendChild(text_in)
-			img.src = 'img/trash-can.png'
-			img.alt = 'Trash can logo'
-			makeDelete()
 		}
+		makeDelete()
 	}
 	add('Type and press "Enter" to make a list')
 	add('Click/tap the text to mark as done')
