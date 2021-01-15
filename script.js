@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
 			makeDelete()
 		}
 	}
-	add('Type and press "Enter" to make a list')
+	/*add('Type and press "Enter" to make a list')
 	add('Click/tap the text to mark as done')
 	add('Click/tap again to unmark')
-	add('Click/tap the trach logo to remove the list')
+	add('Click/tap the trach logo to remove the list')*/
 
 	function makeDelete() {
 		var li = Array.from(document.getElementsByTagName('li'))

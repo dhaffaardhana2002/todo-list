@@ -61,6 +61,16 @@ li {
   padding: 8px;
 }
 
+div {
+  display: inherit;
+  align-items: center;
+}
+
+.check {
+  width: 20px;
+  height: 15px;
+}
+
 li p {
   font-weight: bold;
   max-width: 227px;
@@ -81,7 +91,7 @@ li p.checked::before {
   height: 14px;
 }
 
-li img {
+.delete {
   cursor: pointer;
   width: 40px;
   margin-left: 5px;
