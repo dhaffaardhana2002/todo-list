@@ -48,10 +48,6 @@ ul {
   flex-direction: column;
 }
 
-#check {
-  margin-right: 10px;
-}
-
 li {
   display: flex;
   flex-direction: row;
@@ -67,7 +63,6 @@ li {
 
 li p {
   font-weight: bold;
-  min-width: 227px;
   max-width: 227px;
   cursor: pointer;
   margin-left: 5px;
