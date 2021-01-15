@@ -61,28 +61,34 @@ li {
   padding: 8px;
 }
 
-li p {
-  font-weight: bold;
-  max-width: 227px;
+div {
+  display: inherit;
+  align-items: center;
   cursor: pointer;
-  margin-left: 5px;
-  position: relative;
 }
 
-li p.checked {
+div.checked p {
   text-decoration: line-through;
 }
 
-li p.checked::before {
-  content: url('img/check.png');
-  display: inline-flex;
-  position: relative;
-  top: 2px;
-  height: 14px;
+div.checked .check {
+  visibility: visible;
 }
 
-li img {
+.check {
+  width: 20px;
+  margin: 0 5px;
+  visibility: hidden;
+}
+
+div p {
+  font-weight: bold;
+  max-width: 227px;
+  margin-left: 5px;
+}
+
+.delete {
   cursor: pointer;
   width: 40px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
