@@ -64,35 +64,31 @@ li {
 div {
   display: inherit;
   align-items: center;
+  cursor: pointer;
+}
+
+div.checked p {
+  text-decoration: line-through;
+}
+
+div.checked .check {
+  visibility: visible;
 }
 
 .check {
   width: 20px;
-  height: 15px;
+  margin: 0 5px;
+  visibility: hidden;
 }
 
-li p {
+div p {
   font-weight: bold;
   max-width: 227px;
-  cursor: pointer;
   margin-left: 5px;
-  position: relative;
-}
-
-li p.checked {
-  text-decoration: line-through;
-}
-
-li p.checked::before {
-  content: url('img/check.png');
-  display: inline-flex;
-  position: relative;
-  top: 2px;
-  height: 14px;
 }
 
 .delete {
   cursor: pointer;
   width: 40px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
