@@ -43,14 +43,8 @@ main {
   color: white;
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-}
-
 li {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: inherit;
@@ -83,8 +77,9 @@ div.checked .check {
 
 div p {
   font-weight: bold;
-  max-width: 227px;
+  max-width: 205px;
   margin-left: 5px;
+  word-break: break-word;
 }
 
 .delete {
