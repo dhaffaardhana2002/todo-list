@@ -1,5 +1,3 @@
-# To-Do list
+# To-Do list (looks abandoned :v)
 
-I'm using HTML, CSS, and Javascript for making it. Some basic syntax I've learn and use it for this. 
-
-Your list that has edited in this website couldn't save to database because I didn't use the data store method. I recently learn ReactJS for storing datas so you can keep the list. But it might take a long time, so be patient... 
+Oh hey! It's my simple project, To-do list. I got this idea from a post at instagram about beginners project to make after learning programming. And yep you can see the title, it's abandoned..., because there's nothing I could continue.
